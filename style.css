@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  margin: auto;
 }
 
 #hero {
@@ -28,7 +29,7 @@ span, a {
   color: #FF9900;
 }
 
-p {
+p, #footer {
   color: #7D7987;
   font-size: 14px;
   line-height: 28px;
@@ -39,11 +40,10 @@ p {
   margin: 0 auto 8px;
   width: 568px;
   height: 0px;
-  border: 1px rgb(228, 228, 228) solid;
+  border: 1px rgb(241, 241, 241) solid;
 }
 
-#footer a + a{
-  font-size: 14px;
+#footer a + a {
   margin-left: 28px;
 }
 
